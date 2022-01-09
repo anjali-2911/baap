@@ -8,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  image:string="/home/anjali/baap company/lady.png";
+  public name=""
 
-  public name="anjali";
+  show:boolean=true;
+  display(){
+    this.show!=this.show;
+  }
 
   constructor() { }
 

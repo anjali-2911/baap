@@ -4,23 +4,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { GeturlComponent } from './geturl/geturl.component';
-import { TemplateFormsComponent } from './template-forms/template-forms.component';
-import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    GeturlComponent,
-    TemplateFormsComponent,
-    ReactiveFormsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

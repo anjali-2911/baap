@@ -8,12 +8,4 @@ import { DataService } from './data.service';
 })
 export class AppComponent {
   title = 'baap';
-  userArray:any=[]
-  constructor(private user:DataService)
-  {
-    this.user.getData().subscribe((data:any)=>{
-      console.warn("data",data)
-       this.userArray=data.data
-    })
   }
-}
