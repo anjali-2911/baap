@@ -1,0 +1,43 @@
+.thebaapcompany{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-left: 20px;
+}
+nav{
+    height: 8vh;
+	/* width: 100%; */
+	/* float: right; */
+  background-color: rgb(81, 14, 144);;
+  color:white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+ul{
+    float: right;
+    /* background-color: rgb(81, 14, 144); */
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.custom-shape-divider-bottom-1639563437 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639563437 svg {
+    position: relative;
+    display: block;
+    width: calc(105% + 1.3px);
+    height: 243px;
+}
+
+.custom-shape-divider-bottom-1639563437 .shape-fill {
+    fill: #FFFFFF;
+}
